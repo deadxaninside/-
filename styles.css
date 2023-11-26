@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{background-color: rgb(235, 231, 215);/* margin: 0%; */
+    color: rgb(16, 32, 79);
+    font-style: 16px;
+    font-weight: normal;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+    a{
+    color: rgba(14, 59, 16, 0.95));
+    text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+/* аватарка */
+.Sofiya {
+    width: 250px;
+    border-radius: 30px;
+    box-shadow:4px 4px 14px rgba(14, 45, 59, 0.95) ;
+    
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+        
+    }
+}
+
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgb(7, 48, 50)
+}
+
+
+
+/* информация обо мне */
+.info p {
+    color: rgb(7, 48, 50);
+    font-weight: 900;
+    margin: 0;
+}
+
+/* box model */
+.container {
+  max-width: 750px ;  
+  margin:auto ;
+  padding-top: 10px;
+}
+ 
+/* соц сети */
+/* .social {
+    background:rgba(57, 114, 247, 0.35);
+    padding: 15px;
+    margin:  5px;
+   
+} */
+.hobby{
+ background: rgba(178, 195, 134, 0.437);
+
+}
+.lab{
+ background: rgba(156, 195, 134, 0.437);
+
+}
+.card {
+    padding: 15px 20px;
+ /* background: rgba(31, 147, 215, 0.15); */
+ margin-bottom: 20px;
+ border-radius: 20px;
+
+}
+.card h2{
+    margin-bottom: 20px;
+}
+.list li {
+    color: rgb(173, 122, 58)69);
+
+}
+ .content {
+    transition: 0.3 ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    padding: 20px;
+    height: 700px;
+    width: 700px;
+     max-width: 750px
+     
+ }
